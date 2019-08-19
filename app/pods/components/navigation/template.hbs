@@ -1,0 +1,24 @@
+{{#link-to "feed"}}
+<a>
+    <img src="images/navLogo.png" alt="logo" title="logo" class="navigation__logo" />
+</a>
+{{/link-to}}
+<div class="navigation__search-container">
+    <i class="fa fa-search"></i>
+    <input type="text" placeholder="Buscar">
+</div>
+<div class="navigation__icons">
+    {{#link-to "explore"}}
+    <a class="navigation__link">
+        <i class="fa fa-compass"></i>
+    </a>
+    {{/link-to}}
+    <a href="#" class="navigation__link">
+        <i class="fa fa-heart-o"></i>
+    </a>
+    {{#link-to "profile"}}
+    <a class="navigation__link">
+        <i class="fa fa-user-o"></i>
+    </a>
+    {{/link-to}}
+</div>

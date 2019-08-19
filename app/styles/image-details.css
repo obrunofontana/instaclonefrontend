@@ -1,0 +1,37 @@
+.image__header {
+    display: flex;
+}
+
+.image__info {
+    margin-left: 1em;
+    align-items: flex-start;
+}
+
+.image {
+    box-sizing: content-box;
+    justify-content: center;
+    padding: 40px 20px;
+    width: calc(100% - 40px);
+    display: flex;
+}
+
+.image__avatar {
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.image__location {
+    font-size: 12px;
+}
+
+.image__comments {
+    margin-top: 1em;
+}
+
+.image__add-comment, .image__textarea {
+    width: 528px;
+    height: 40px;
+}
